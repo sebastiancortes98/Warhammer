@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warhammer World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="Trabajo_css.css">
 </head>
 <body>
-    <header>
-        <h1>Warhammer World</h1>
-        <nav>
-            <ul>
-                <li><a href="#trasfondo">Trasfondo</a></li>
-                <li><a href="#ejercitos">Ejércitos</a></li>
-                <li><a href="#pintura">Pintura</a></li>
-                <!-- Agrega más secciones si lo deseas -->
-            </ul>
-        </nav>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1 class="mb-0">Warhammer World</h1>
+            <nav>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a class="text-white" href="#trasfondo">Trasfondo</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#ejercitos">Ejércitos</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#pintura">Pintura</a></li>
+                    <!-- Agrega más secciones si lo deseas -->
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="container mt-4">
         <section id="trasfondo">
             <h2>Trasfondo del Universo de Warhammer</h2>
             <p>El universo de Warhammer es un lugar oscuro y tumultuoso, lleno de conflictos entre razas, imperios y dioses.</p>
@@ -39,8 +42,15 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Warhammer World</p>
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Warhammer World</p>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
